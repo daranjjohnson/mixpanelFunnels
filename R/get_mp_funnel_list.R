@@ -7,11 +7,12 @@
 #' @import rjson
 #' @export
 
+# call devtools::document() to document.
 # use the following to push to git, after Commit:
 # git push --mirror https://github.com/daranjjohnson/mixpanelFunnels
 # install on other computers:
 # devtools::install_github("daranjjohnson/mixpanelFunnels")
-devtools::document()
+
 get_mp_funnel_list <- function(api_secret){
         
         # Check the api secret is passed - if not, exit.

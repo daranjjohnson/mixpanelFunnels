@@ -2,7 +2,7 @@ Package: mixpanelFunnels
 Title: Retrieves funnel data from Mixpanel.
 Version: 0.0.0.9000
 Authors@R: person("Daran", "Johnson", email = "daranjjohnson@gmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Retrieves data for Mixpanel funnels.
 Depends: R (>= 3.6.0)
 License: NONE
 Encoding: UTF-8
