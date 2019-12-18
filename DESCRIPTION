@@ -1,0 +1,14 @@
+Package: mixpanelFunnels
+Title: Mixpanel Funnel Data Retrival
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Daran",
+           family = "Johnson",
+           role = c("aut", "cre"),
+           email = "daranjjohnson@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package retrieves funnel data from Mixpanel.
+License: None
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.99.9000

@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 mixpanelFunnels.Rproj
+.DS_Store
+.Rbuildignore
