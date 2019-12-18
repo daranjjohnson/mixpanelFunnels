@@ -104,8 +104,8 @@ get_mp_funnel <- function(api_secret, funnel_id, unit, from_date, to_date){
       while(e <= length(json_funnels[[1]][[1]]$steps)){
          
          order <- e
-         goal <- json_funnels[[1]][[1]][[1]][[e]]$step_label
-         count <- json_funnels[[1]][[1]][[1]][[e]]$count
+         goal <- json_funnels[[1]][[i]][[1]][[e]]$step_label
+         count <- json_funnels[[1]][[i]][[1]][[e]]$count
          
          # Create a temp table to hold the step data.
          funnel_steps_temp <- data.frame(order, goal, count, date)
