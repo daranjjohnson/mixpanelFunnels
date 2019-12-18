@@ -1,2 +1,2 @@
 # mixpanelFunnels
-A package to retrieve Mixpanel funnels data.
+A package to retrieve Mixpanel funnel data.
