@@ -1,5 +1,0 @@
-
-export(get_mp_funnel)
-export(get_mp_funnel_list)
-import(lubridate)
-import(rjson)
