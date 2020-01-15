@@ -19,7 +19,7 @@ get_mp_funnel_list <- function(api_secret){
         if(!is.null(api_secret)){
                 
                 full_url <- paste0('https://', api_secret, '@mixpanel.com/api/2.0/funnels/list/')
-               # api_secret <- "5fefe49b99896c2a00fb3173faf97b7d"
+               
         } else{return()}
         
         # Create a temp fiel to hold the data.
