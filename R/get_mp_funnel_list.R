@@ -42,7 +42,7 @@ get_mp_funnel_list <- function(api_secret){
         
         i <- 1
         
-        # Loop through each date.
+        # Loop through each date. Update to function call.
         while(i <= length(json_funnel_list)){ # This is the dates
                 
                 funnel_name <- json_funnel_list[[i]][[2]]
